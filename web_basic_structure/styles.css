@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: #497D74;
+    color:#ffffff;
+
+}
+
+nav{
+    background-color: #FBF5E5;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    background-color: #FBF5E5;
+    text-decoration: none;
+    color: #27445D;
+    margin-right: 50px;
+}
+
+nav div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover{
+    color: #71BBB2 ;
+
+}
+
+button{
+    color: #ffffff;
+    background-color: #27445D;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    width: 100px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color:#27445d7b;
+    cursor: pointer; 
+}
+
+.banner{
+    background-image:url(assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    background-color: #ffffff99;
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    color: #27445D;
+    font-size: larger;
+}
+
+article {
+    padding: 10px;
+    width: 60%;
+    float: left;
+    height: 300px;
+}
+
+article div{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #04040412;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    height:90px;
+    color: #000000;
+}
+
+aside{
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    clear: both;
+    background-color: #27445D;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #FBF5E5;
+}
